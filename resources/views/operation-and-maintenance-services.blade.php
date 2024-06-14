@@ -151,7 +151,7 @@
     </section>
 
     <section
-        style="background-image: url({{ url('assets/images/pictures/innerbanner.jpg') }});background-position: center center;background-size: cover;">
+        style="background-image: url({{ url('assets/images/pictures/o&m_down.jpg') }});background-position: center center;background-size: cover;">
         <div class="container">
             <div class="col-lg-12">
                 <div class="row">

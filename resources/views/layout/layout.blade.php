@@ -234,7 +234,7 @@
                                 </li>
                             </ul>
                             
-                            <h6 class="mt-5"><a href="mailto:smartsolar@gadgeon.com"  class="text-dark">solar@gadgeon.com</a> </h6>
+                            <h6 class="mt-5"><a href="mailto:solar@gadgeon.com"  class="text-dark">solar@gadgeon.com</a> </h6>
                             <h6><a href="tel:+919633186217" class="text-dark mt-2">+91 9633 186 217</a></h6>
                             <h6><a href="tel:+919747093888" class="text-dark mt-2">+91 9747 093 888</a></h6>
                             <h6><a href="tel:+919207799555" class="text-dark mt-2">+91 9207 799 555</a></h6>

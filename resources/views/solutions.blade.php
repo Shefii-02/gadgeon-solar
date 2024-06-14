@@ -218,7 +218,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-6 m-0 p-0">
-                    <img loading="lazy" src="{{ url('assets/images/pictures/gadgeon_solar project development.jpg') }}" class="w-100">
+                    <img loading="lazy" src="{{ url('assets/images/pictures/gadgeon_solarAndproject-development.jpg') }}" class="w-100">
                 </div>
                 <div class="col-lg-6 d-flex justify-content-center flex-column m-0 p-0">
                     <div class="p-5">

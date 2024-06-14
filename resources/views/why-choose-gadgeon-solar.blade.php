@@ -218,7 +218,7 @@
     </section>
 
     <section
-        style="background-image: url({{ url('assets/images/pictures/down_banner2.jpg') }});background-position: center center;background-size: cover;">
+        style="background-image: url({{ url('assets/images/pictures/why-choose-gadgeon-solar_down.jpg') }});background-position: center center;background-size: cover;">
         <div class="container">
             <div class="col-lg-12">
                 <div class="row">

@@ -8,9 +8,9 @@
                     <div class="col-lg-7 d-flex align-items-end section-content-1">
                         <div class="">
                             <h1 class="fw-semibold" data-aos="fade-right" data-aos-delay="300">
-                                  
+
                                 <span class="text-black-50 fw-normal">
-                                   Top-Rated Premium
+                                    Top-Rated Premium
                                 </span>
                                 <span class="fw-bold">
                                     Solar System Installer
@@ -27,12 +27,13 @@
                         </div>
                         <div class="text-end mt-5">
                             <h3 class="text-start" data-aos="fade-left" data-aos-delay="400">
-                                <span class="text-black-50 "></span> Architects of a 
-                                <span class="text-black-50 ">sustainable future, empowering with  </span>innovative solar solutions.
+                                <span class="text-black-50 "></span> Architects of a
+                                <span class="text-black-50 ">sustainable future, empowering with </span>innovative solar
+                                solutions.
                             </h3>
                         </div>
                     </div>
-                             @include('social-media-links')
+                    @include('social-media-links')
                 </div>
             </div>
         </div>
@@ -63,7 +64,7 @@
                             data-bs-target="#pills-integrated" type="button" role="tab" aria-controls="pills-home"
                             aria-selected="true">
                             <img loading="lazy" src="{{ asset('assets/images/icon-01.svg') }}" class="pe-2 w-10">
-                           Commercial Solar
+                            Commercial Solar
                         </button>
                     </li>
 
@@ -74,27 +75,26 @@
                             data-bs-target="#pills-bespoke" type="button" role="tab" aria-controls="pills-bespoke"
                             aria-selected="false">
                             <img loading="lazy" src="{{ asset('assets/images/icon-02.svg') }}" class="pe-2 w-10">
-                             Residential Solar
+                            Residential Solar
                         </button>
                     </li>
                     <li data-aos="zoom-in" data-aos-delay="300"
                         class="nav-item col-lg-3 col-md-6 col-12 border-0 border-end  d-flex justify-content-center"
                         role="presentation">
-                        <button class="nav-link" id="pills-cinema-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-cinema" type="button" role="tab" aria-controls="pills-cinema"
-                            aria-selected="false">
+                        <button class="nav-link" id="pills-cinema-tab" data-bs-toggle="pill" data-bs-target="#pills-cinema"
+                            type="button" role="tab" aria-controls="pills-cinema" aria-selected="false">
                             <img loading="lazy" src="{{ asset('assets/images/icon-03.svg') }}" class="pe-2 w-10">
                             Solar Project Development
                         </button>
                     </li>
-                     <li data-aos="zoom-in" data-aos-delay="300"
+                    <li data-aos="zoom-in" data-aos-delay="300"
                         class="nav-item col-lg-3 col-md-6 col-12 border-0 d-flex justify-content-center"
                         role="presentation">
                         <button class="nav-link" id="pills-lighting-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-lighting" type="button" role="tab" aria-controls="pills-lighting"
-                            aria-selected="false">
+                            data-bs-target="#pills-lighting" type="button" role="tab"
+                            aria-controls="pills-lighting" aria-selected="false">
                             <img loading="lazy" src="{{ asset('assets/images/icon-04.svg') }}" class="pe-2 w-10">
-                           Maintenance & Support
+                            Maintenance & Support
                         </button>
                     </li>
                 </ul>
@@ -106,7 +106,7 @@
                         src="{{ asset('assets/images/01.jpg') }}" alt="Integrated Automation">
                     <!--<div class="shadow-custome"></div>-->
                 </div>
-                
+
                 <div class="tab-pane fade" id="pills-bespoke" role="tabpanel" aria-labelledby="pills-bespoke-tab">
                     <img loading="lazy" decoding="async" data-aos="fade-up" data-aos-delay="100" class="w-100"
                         src="{{ asset('assets/images/02.jpg') }}" alt="sfd">
@@ -130,33 +130,39 @@
         <div class="container-fluid">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img src="{{ asset('assets/images/banner_one.jpg') }}" class="d-block w-100" alt="...">
+                        <img src="{{ asset('assets/images/banner_one.jpg') }}" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                      <img src="{{ asset('assets/images/banner_two.jpg') }}" class="d-block w-100" alt="...">
+                        <img src="{{ asset('assets/images/banner_two.jpg') }}" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                      <img src="{{ asset('assets/images/banner_three.jpg') }}" class="d-block w-100" alt="...">
+                        <img src="{{ asset('assets/images/banner_three.jpg') }}" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                      <img src="{{ asset('assets/images/banner_four.jpg') }}" class="d-block w-100" alt="...">
+                        <img src="{{ asset('assets/images/banner_four.jpg') }}" class="d-block w-100" alt="...">
                     </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
-                  </button>
+                </button>
             </div>
         </div>
     </section>
@@ -166,7 +172,8 @@
             <div class="col-lg-12">
                 <div class="col-lg-10 mx-auto text-center py-5">
                     <h1 class="fw-normal" data-aos="fade-up" data-aos-delay="500">
-                        GadgEon Solar Solutions is your gateway to a brighter and more sustainable future. Take the first step towards energy independence and eco-conscious living by embracing solar power today.
+                        GadgEon Solar Solutions is your gateway to a brighter and more sustainable future. Take the first
+                        step towards energy independence and eco-conscious living by embracing solar power today.
                     </h1>
                 </div>
             </div>
@@ -180,7 +187,8 @@
                 <img loading="lazy" class="gallery-img-2" src='{{ asset('assets/images/big1.jpg') }}'>
                 <div class="slider-overlay-text-2">
                     <h2>Tailored Residential Solar Solutions</h2>
-                    <p class="d-none d-lg-block">Empower your home with custom solar solutions, reducing reliance on traditional energy sources.</p>
+                    <p class="d-none d-lg-block">Empower your home with custom solar solutions, reducing reliance on
+                        traditional energy sources.</p>
                 </div>
                 <div class="shadow-custome"></div>
             </div>
@@ -189,7 +197,8 @@
                 <img loading="lazy" class="gallery-img-2" src="{{ asset('assets/images/big2.jpg') }}">
                 <div class="slider-overlay-text-2">
                     <h2> Commercial Solar Power Systems</h2>
-                    <p class="d-none d-lg-block">Tailored solar solutions for businesses, cutting costs and boosting sustainability.</p>
+                    <p class="d-none d-lg-block">Tailored solar solutions for businesses, cutting costs and boosting
+                        sustainability.</p>
                 </div>
 
                 <div class="shadow-custome"></div>
@@ -199,7 +208,8 @@
                 <img loading="lazy" class="gallery-img-2" src='{{ asset('assets/images/big3.jpg') }}'>
                 <div class="slider-overlay-text-2">
                     <h2>End-to-End Project Development Services</h2>
-                    <p class="d-none d-lg-block">Comprehensive solar project development services from concept to completion by experienced professionals.</p>
+                    <p class="d-none d-lg-block">Comprehensive solar project development services from concept to
+                        completion by experienced professionals.</p>
                 </div>
 
                 <div class="shadow-custome"></div>
@@ -208,7 +218,8 @@
                 <img loading="lazy" class="gallery-img-2" src='{{ asset('assets/images/big4.jpg') }}'>
                 <div class="slider-overlay-text-2">
                     <h2>Comprehensive Maintenance & Support Services</h2>
-                    <p class="d-none d-lg-block">Ensuring ongoing solar system performance with comprehensive maintenance and support services.</p>
+                    <p class="d-none d-lg-block">Ensuring ongoing solar system performance with comprehensive maintenance
+                        and support services.</p>
                 </div>
 
                 <div class="shadow-custome"></div>
@@ -221,34 +232,38 @@
             <div class="pined-inner">
                 <ul class="pined-list">
                     <li class="position-relative">
-                        <img loading="lazy" src="{{url('assets/images/big1.jpg')}}" alt="" />
+                        <img loading="lazy" src="{{ url('assets/images/big1.jpg') }}" alt="" />
                         <div class="slider-overlay-text">
-                           <h2>Tailored Residential Solar Solutions</h2>
-                            <p class="d-none d-lg-block">Empower your home with custom solar solutions, reducing reliance on traditional energy sources.</p>
+                            <h2>Tailored Residential Solar Solutions</h2>
+                            <p class="d-none d-lg-block">Empower your home with custom solar solutions, reducing reliance
+                                on traditional energy sources.</p>
                         </div>
                     </li>
                     <li class="position-relative">
-                        <img loading="lazy" src="{{url('assets/images/big2.jpg')}}" alt="" />
+                        <img loading="lazy" src="{{ url('assets/images/big2.jpg') }}" alt="" />
                         <div class="slider-overlay-text">
                             <h2>Commercial Solar Power Systems</h2>
-                            <p class="d-none d-lg-block">Tailored solar solutions for businesses, cutting costs and boosting sustainability.</p>
+                            <p class="d-none d-lg-block">Tailored solar solutions for businesses, cutting costs and
+                                boosting sustainability.</p>
                         </div>
                     </li>
                     <li class="position-relative">
-                        <img loading="lazy" src="{{url('assets/images/big3.jpg')}}" alt="" />
+                        <img loading="lazy" src="{{ url('assets/images/big3.jpg') }}" alt="" />
                         <div class="slider-overlay-text">
                             <h2>End-to-End Project Development Services</h2>
-                            <p class="d-none d-lg-block">Comprehensive solar project development services from concept to completion by experienced professionals.</p>
+                            <p class="d-none d-lg-block">Comprehensive solar project development services from concept to
+                                completion by experienced professionals.</p>
                         </div>
                     </li>
                     <li class="position-relative">
-                        <img loading="lazy" src="{{url('assets/images/big4.jpg')}}" alt="" />
+                        <img loading="lazy" src="{{ url('assets/images/big4.jpg') }}" alt="" />
                         <div class="slider-overlay-text">
                             <h2>Comprehensive Maintenance & Support Services</h2>
-                            <p class="d-none d-lg-block">Ensuring ongoing solar system performance with comprehensive maintenance and support services.</p>
+                            <p class="d-none d-lg-block">Ensuring ongoing solar system performance with comprehensive
+                                maintenance and support services.</p>
                         </div>
                     </li>
-                    
+
                 </ul>
             </div>
         </div>
@@ -290,24 +305,24 @@
                                 data-aos-delay="300">Expertise</h2>
                             <div class="border-0 border-start mt-5">
                                 <ul data-aos="fade-up" data-aos-delay="300">
-                                    
+
                                     <li class="mt-4"> <span class="fw-semibold h4 text-light">
-                                        Advanced Solar Panel Technology
-                                            </span></li>
-                                    <li class="mt-4"> <span class="fw-semibold h4 text-light">
-                                       Custom Solar Solutions Design
-                                       </span></li>
-                                    <li class="mt-4"> <span class="fw-semibold h4 text-light">
-                                        Smart Energy Management Systems
+                                            Advanced Solar Panel Technology
                                         </span></li>
-                                    <li class="mt-4"> 
-                                    <span class="fw-semibold h4 text-light">
-                                        Solar Installation and Maintenance
+                                    <li class="mt-4"> <span class="fw-semibold h4 text-light">
+                                            Custom Solar Solutions Design
+                                        </span></li>
+                                    <li class="mt-4"> <span class="fw-semibold h4 text-light">
+                                            Smart Energy Management Systems
+                                        </span></li>
+                                    <li class="mt-4">
+                                        <span class="fw-semibold h4 text-light">
+                                            Solar Installation and Maintenance
                                         </span>
                                     </li>
-                                    <li class="mt-4"> 
+                                    <li class="mt-4">
                                         <span class="fw-semibold h4 text-light">
-                                        Renewable Energy Consultancy
+                                            Renewable Energy Consultancy
                                         </span>
                                     </li>
                                 </ul>
@@ -319,7 +334,7 @@
         </div>
 
     </section>
-   
+
     <!-- feature-products section -->
     <section class="py-5 products-section">
         <div class="container">
@@ -331,7 +346,7 @@
             </div>
             <div class="content-part">
                 <div class="col-lg-12">
-      
+
                     <div class="pdct-slider">
                         <div class="pdct-slider__wrp1 swiper-wrapper1 mt-4">
                             <div class="pdct-slider__item swiper-slide">
@@ -342,8 +357,11 @@
                                 </div>
                                 <div class="pdct-slider__content">
                                     <div class="pdct-slider__title">SunPower From Maxeon Solar Technologiese</div>
-                                    <div class="pdct-slider__text">SunPower, from Maxeon Solar Technologies, pioneers high-efficiency panels. Our partnership ensures top-tier technology, maximizing energy generation for a sustainable future.</div>
-                                    <a href="https://us.sunpower.com/" target="_new" class="pdct-slider__button">READ MORE</a>
+                                    <div class="pdct-slider__text">SunPower, from Maxeon Solar Technologies, pioneers
+                                        high-efficiency panels. Our partnership ensures top-tier technology, maximizing
+                                        energy generation for a sustainable future.</div>
+                                    <a href="https://us.sunpower.com/" target="_new" class="pdct-slider__button">READ
+                                        MORE</a>
                                 </div>
                             </div>
                         </div>
@@ -359,10 +377,14 @@
                                 </div>
                                 <div class="pdct-slider__content">
                                     <div class="pdct-slider__title">AXITEC - High-Quality German Solar Brand</div>
-                                    <div class="pdct-slider__text">AXITEC, a trusted German brand, delivers high-quality solar modules. Partnering with us ensures top-of-the-line panels, built to last with German engineering standards for consistent energy production and long-term savings.</div>
-                                    <a href="https://www.axitecsolar.com/en" target="_new" class="pdct-slider__button">READ MORE</a>
+                                    <div class="pdct-slider__text">AXITEC, a trusted German brand, delivers high-quality
+                                        solar modules. Partnering with us ensures top-of-the-line panels, built to last with
+                                        German engineering standards for consistent energy production and long-term savings.
+                                    </div>
+                                    <a href="https://www.axitecsolar.com/en" target="_new"
+                                        class="pdct-slider__button">READ MORE</a>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -377,9 +399,12 @@
                                 <div class="pdct-slider__content">
                                     <div class="pdct-slider__title">REC - Renewable Energy Corporation</div>
                                     <div class="pdct-slider__text">
-                                        REC, a global solar solutions leader, prioritizes sustainability and excellence. Through our partnership, we provide cutting-edge solar panels renowned for quality and performance.
+                                        REC, a global solar solutions leader, prioritizes sustainability and excellence.
+                                        Through our partnership, we provide cutting-edge solar panels renowned for quality
+                                        and performance.
                                     </div>
-                                    <a href="https://www.recgroup.com/en" target="_new" class="pdct-slider__button">READ MORE</a>
+                                    <a href="https://www.recgroup.com/en" target="_new" class="pdct-slider__button">READ
+                                        MORE</a>
 
                                 </div>
                             </div>
@@ -389,39 +414,49 @@
                     <div class="pdct-slider">
                         <div class="pdct-slider__wrp1 swiper-wrapper1  mt-4">
                             <div class="pdct-slider__item swiper-slide">
+
                                 <div class="pdct-slider__img right-position order-0 order-lg-2">
-                                    <img loading="lazy" src="{{ asset('assets/images/products/product4.jpeg?v=1') }}"
-                                        alt="">
-                                </div>
-                                <div class="pdct-slider__content">
-                                    <div class="pdct-slider__title">ENPHASE PLATINUM INSTALLER</div>
-                                    <div class="pdct-slider__text">
-                                        Enphase Energy pioneers microinverter technology for enhanced solar harvesting and monitoring. As a preferred installer, we integrate Enphase microinverters, ensuring superior energy production, monitoring, and system reliability.
-                                    </div>
-                                    <a href="https://enphase.com/en-in" target="_new" class="pdct-slider__button">READ MORE</a>
-
-                                </div>
-                                
-                            </div> 
-
-                        </div>
-                    </div>
-                    
-                    <div class="pdct-slider">
-                        <div class="pdct-slider__wrp1 swiper-wrapper1  mt-4">
-                            <div class="pdct-slider__item swiper-slide">
-                                <div class="pdct-slider__img">
                                     <img loading="lazy" src="{{ asset('assets/images/products/product-4.jpg') }}"
                                         alt="">
                                 </div>
                                 <div class="pdct-slider__content">
                                     <div class="pdct-slider__title">Solar Edge Preferred Partner</div>
                                     <div class="pdct-slider__text">
-                                                                            SolarEdge is a world-leading provider of smart energy solutions, offering advanced solar inverters and power optimizers. As a preferred partner, SolarEdge empowers us to design and implement sophisticated solar systems with enhanced monitoring, safety, and energy optimization features, providing you with more control over your solar energy. 
-
+                                        Remove existing description : We leverage SolarEdge's advanced inverters and power
+                                        optimizers to design sophisticated solar systems with enhanced monitoring, safety,
+                                        and energy optimization, giving you greater control over your solar energy.
                                     </div>
+                                    <a href="https://www.solaredge.in" target="_new" class="pdct-slider__button">READ
+                                        MORE</a>
 
                                 </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="pdct-slider">
+                        <div class="pdct-slider__wrp1 swiper-wrapper1  mt-4">
+                            <div class="pdct-slider__item swiper-slide">
+
+                                <div class="pdct-slider__img ">
+                                    <img loading="lazy" src="{{ asset('assets/images/products/product4.jpeg?v=1') }}"
+                                        alt="">
+                                </div>
+                                <div class="pdct-slider__content">
+                                    <div class="pdct-slider__title">ENPHASE PLATINUM INSTALLER</div>
+                                    <div class="pdct-slider__text">
+                                        Enphase Energy pioneers microinverter technology for enhanced solar harvesting and
+                                        monitoring. As a preferred installer, we integrate Enphase microinverters, ensuring
+                                        superior energy production, monitoring, and system reliability.
+                                    </div>
+                                    <a href="https://enphase.com/en-in" target="_new" class="pdct-slider__button">READ
+                                        MORE</a>
+
+                                </div>
+
+
                             </div>
                         </div>
                     </div>
@@ -442,7 +477,7 @@
                 <div class="row">
                     <div class="col-sm-8">
                         <h1 class="text-start section-title">Testimonials </h1>
-                        <p class="section-subtitle" >Global presence in 12 <br>
+                        <p class="section-subtitle">Global presence in 12 <br>
                             years</p>
                     </div><!-- /End col -->
 
@@ -526,8 +561,10 @@
     background-size: cover;">
         <div class="container mt-5">
             <div class="col-10 mx-auto text-center text-light">
-                <h2 class="mb-3 section-title" >Who We Are?</h2>
-                <p > We are more than just a solar company at GadgEon. We build a cleaner, greener future. Our innovative solar technology helps individuals, businesses, and communities embrace renewable energy and positively impact the planet.</p>
+                <h2 class="mb-3 section-title">Who We Are?</h2>
+                <p> We are more than just a solar company at GadgEon. We build a cleaner, greener future. Our innovative
+                    solar technology helps individuals, businesses, and communities embrace renewable energy and positively
+                    impact the planet.</p>
             </div>
             <div class="py-5">
                 <div class="col-lg-8 mx-auto text-light">
@@ -561,7 +598,7 @@
                                         </g>
                                     </g>
                                 </svg> </span>
-                            <h6 >
+                            <h6>
                                 Commitment to Quality
                             </h6>
                         </div>
@@ -627,7 +664,8 @@
                         </div>
                     </div>
                     <div class="col-lg-12 pt-5 text-center">
-                        <a href="{{url('about-us')}}" class="btn btn-theme2 bg-transparent text-light border-light border rounded-5">About Us
+                        <a href="{{ url('about-us') }}"
+                            class="btn btn-theme2 bg-transparent text-light border-light border rounded-5">About Us
                             <i class="bi bi-arrow-right ms-3 fs-4"></i></a>
                     </div>
                 </div>
@@ -640,13 +678,12 @@
 
 
 @section('scripts')
-
     <script src="https://unpkg.co/gsap@3/dist/gsap.min.js?v=1.1"></script>
     <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js?v=1.1"></script>
-   <script>
-    window.onbeforeunload = function () {
-              window.scrollTo(0, 0);
-            }
+    <script>
+        window.onbeforeunload = function() {
+            window.scrollTo(0, 0);
+        }
         const pinedList = document.querySelector(".pined-list");
         const pinedInner = document.querySelector(".pined-inner");
 
@@ -660,7 +697,5 @@
                 scrub: 1
             }
         });
-
     </script>
-
 @endsection

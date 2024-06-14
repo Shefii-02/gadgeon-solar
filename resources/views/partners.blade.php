@@ -255,7 +255,7 @@
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="mt-3 ms-5 p-5 text-left">
-                                            <h3 class="mb-3"> Enphase Energy - Preferred Installer</h3>
+                                            <h3 class="mb-3"> Enphase Energy - Platinum Installer</h3>
                                             <p class="p-0 m-0 text-muted ">
                                                 Enphase Energy is a pioneer in microinverter technology, providing innovative solutions for solar 
                                                 energy harvesting and monitoring. As a preferred installer, we integrate Enphase microinverters into 

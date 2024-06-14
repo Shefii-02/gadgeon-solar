@@ -40,7 +40,7 @@
  
 
     <section class="pt-5 second-section">
-        <img  loading="lazy" src="{{ url('assets/images/04.jpg') }}" class="w-100">
+        <img  loading="lazy" src="{{ url('assets/images/pictures/newbanner-project-development.jpg') }}" class="w-100">
 
     </section>
     
@@ -124,7 +124,7 @@
     </section>
 
 
- @include('common-tile', ['image' => 'solar_project.jpg'])
+ @include('common-tile', ['image' => 'solar-project-development_down.jpg'])
    
     <!-- Global Partnership -->
     @include('partnership')

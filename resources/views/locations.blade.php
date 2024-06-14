@@ -64,23 +64,25 @@
                                         alt="">
                                 </div>
                             </div>
+                            
+
                             <div class="col-lg-10  col-12 mb-4">
 
                                 <div class="e-con-inner">
                                     <div class="mb-4">
                                         <div class="-container">
                                             <h4 class="text-sm-center text-lg-start text-center">
-                                                GADGEON SMART SYSTEMS PVT. LTD.
+                                                Gadgeon Smart Systems Pvt. Ltd.
                                             </h4>
                                         </div>
                                     </div>
                                     <div class="mb-4">
                                         <div class="text-sm-center text-lg-start text-center">
                                             <p>
-                                                Fathima Tower, Maleppally Road,<br>
+                                                VI 405/E1, Fathima Tower,<br>
                                             </p>
                                             <p>
-                                                Thrikkakara PO, Kochi, Kerala, PIN: 682021, India
+                                                Thrikkakara PO, Kakkanad, Kochi – 682021, Kerala, India
                                             </p>
                                         </div>
                                     </div>
@@ -122,7 +124,8 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <h6>Gadgeon Smart Systems Private Limited</h6>
+                                                                
+                                                                <h6>Gadgeon Lifestyle Private Limited</h6>
                                                             </div>
                                                         </div>
     
