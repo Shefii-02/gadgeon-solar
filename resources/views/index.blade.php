@@ -422,7 +422,7 @@
                                 <div class="pdct-slider__content">
                                     <div class="pdct-slider__title">Solar Edge Preferred Partner</div>
                                     <div class="pdct-slider__text">
-                                        Remove existing description : We leverage SolarEdge's advanced inverters and power
+                                         We leverage SolarEdge's advanced inverters and power
                                         optimizers to design sophisticated solar systems with enhanced monitoring, safety,
                                         and energy optimization, giving you greater control over your solar energy.
                                     </div>

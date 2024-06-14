@@ -72,7 +72,7 @@
                                     <div class="mb-4">
                                         <div class="-container">
                                             <h4 class="text-sm-center text-lg-start text-center">
-                                                Gadgeon Smart Systems Pvt. Ltd.
+                                                Gadgeon Lifestyle Private Limited
                                             </h4>
                                         </div>
                                     </div>
