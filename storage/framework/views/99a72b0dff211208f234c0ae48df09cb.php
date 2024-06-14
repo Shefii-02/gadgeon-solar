@@ -342,6 +342,22 @@
                 </div>
 
             </div>
+            <div class="row">
+            
+                <div class="col-lg-6 m-0 p-0">
+                    <img src="<?php echo e(url('assets/images/pictures/solution-img-5.jpg')); ?>" class="w-100">
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center flex-column m-0 p-0  order-0 order-lg-2">
+                    <div class="p-5">
+                        <h1>Revolutionizing Automotive Technology - EV Charging Station</h1>
+                        <p class="mt-5">
+                           Discover Gadgeon's comprehensive solutions tailored for the automotive industry. From cutting-edge EV charger management platforms to specialized services like embedded software development and mobile applications, we innovate to meet diverse automotive needs with precision and customization
+                        </p>
+                    </div>
+    
+                </div>
+    
+            </div>
         </div>
 
     </section>

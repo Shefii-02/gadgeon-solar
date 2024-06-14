@@ -43,10 +43,10 @@ Route::get('contact-us', function () {
     return view('contact-us',compact('title'));
 });
 
-Route::get('partners', function () {
-    $title = "Partners";
-    return view('partners',compact('title'));
-});
+// Route::get('partners', function () {
+//     $title = "Partners";
+//     return view('partners',compact('title'));
+// });
 
 
 Route::get('operation-and-maintenance-services', function () {

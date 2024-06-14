@@ -109,7 +109,7 @@
             <div class="col-lg-12">
                 <div class="row">
                     <div class="col-lg-6 position-relative rounded-3"
-                        style="background-image: url(https://www.gadgeon.ae/wp-content/uploads/2023/11/contact-us.jpg);background-position: center center;background-size: cover;">
+                        style="background-image: url(<?php echo e(asset('assets/images/pictures/contact-us.jpg')); ?>);background-position: center center;background-size: cover;">
                         <div class="px-3" style="bottom: 0;position: absolute;">
                             <h3 class=" text-light fw-bold d-none d-lg-block">Wanna plan a new project with us?
                             </h3>
@@ -182,7 +182,8 @@
                     <p class="h6">Global Presence. Local Focus.</p>
                 </div>
                 <div class="col-lg-12 mx-auto py-4">
-                    <img loading="lazy" src="https://www.gadgeon.ae/wp-content/uploads/2023/10/1-1.png" class="w-75">
+                    
+                    <img loading="lazy" src="<?php echo e(asset('assets/images/pictures/1-1.png')); ?>" class="w-75">
                 </div>
             </div>
         </div>

@@ -421,7 +421,7 @@
                                 <div class="pdct-slider__content">
                                     <div class="pdct-slider__title">Solar Edge Preferred Partner</div>
                                     <div class="pdct-slider__text">
-                                        Remove existing description : We leverage SolarEdge's advanced inverters and power
+                                         We leverage SolarEdge's advanced inverters and power
                                         optimizers to design sophisticated solar systems with enhanced monitoring, safety,
                                         and energy optimization, giving you greater control over your solar energy.
                                     </div>
@@ -494,7 +494,7 @@
 
                         <!-- slider item -->
                         <div class="feedback-slider-item">
-                            <img loading="lazy" src="https://www.gadgeon.ae/wp-content/uploads/2023/12/Krishna-Kumar.jpg"
+                            <img loading="lazy" src=""
                                 class="text-center fed-img rounded-circle" alt="Customer Feedback">
                             <h3 class="customer-name">Krishna Kumar</h3>
                             <p>When we are decided to find an Automation, my friend suggested 'Gadgeon'. Now we are in
@@ -506,7 +506,7 @@
 
                         <!-- slider item -->
                         <div class="feedback-slider-item">
-                            <img loading="lazy" src="https://www.gadgeon.ae/wp-content/uploads/2023/12/testmonial.jpg"
+                            <img loading="lazy" src=""
                                 class="text-center fed-img rounded-circle" alt="Customer Feedback">
                             <h3 class="customer-name">Arch. Smitha Gupta</h3>
                             <p>
@@ -519,7 +519,7 @@
                         <!-- /slider item -->
                         <!-- slider item -->
                         <div class="feedback-slider-item">
-                            <img loading="lazy" src="https://www.gadgeon.ae/wp-content/uploads/2023/12/Krishna-Kumar.jpg"
+                            <img loading="lazy" src=""
                                 class="text-center fed-img rounded-circle" alt="Customer Feedback">
                             <h3 class="customer-name">Krishna Kumar</h3>
                             <p>When we are decided to find an Automation, my friend suggested 'Gadgeon'. Now we are in
@@ -531,7 +531,7 @@
 
                         <!-- slider item -->
                         <div class="feedback-slider-item">
-                            <img loading="lazy" src="https://www.gadgeon.ae/wp-content/uploads/2023/12/testmonial.jpg"
+                            <img loading="lazy" src=""
                                 class="text-center fed-img rounded-circle" alt="Customer Feedback">
                             <h3 class="customer-name">Arch. Smitha Gupta</h3>
                             <p>
@@ -555,7 +555,8 @@
 
     <!-- Who We Are? -->
     <section class="py-5"
-        style="background-image: url(https://www.gadgeon.ae/wp-content/uploads/2023/09/who-we-are-bg.jpg);
+    
+        style="background-image: url(<?php echo e(url('assets/images/pictures/who-we-are-bg.jpg')); ?>);
     background-position: center center;
     background-size: cover;">
         <div class="container mt-5">

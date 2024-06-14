@@ -79,23 +79,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 mb-5">
-                    <div class="card info-box3 h-100">
-                        <div>
-                            <div class="text-center border-bottom">
-                                <img loading="lazy" loading="lazy" decoding="async" class="text-center rounded-6 mb-4"
-                                    src="{{ url('assets/images/logo/axitec-logo.png') }}">
-                            </div>
-                            <div class="mt-2 p-2 text-center">
-                                <h4 class="mb-1">AXITEC</h4>
-                                <h6 class="mb-3">High - Quality German Solar Brand</h6>
-                                <p>
-                                    AXITEC is a trusted German solar brand known for its high-quality and durable solar modules. As a strategic partner, AXITEC allows us to deliver top-of-the-line solar panels that adhere to strict German engineering standards. With AXITEC, we ensure that your solar PV systems are built to last, providing you with consistent energy production and long-term savings. 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            
                 <div class="col-lg-4 mb-5">
                     <div class="card info-box2 h-100">
                         <div>
@@ -114,18 +98,39 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 mb-5 d-none">
+                <div class="col-lg-4 mb-5">
                     <div class="card info-box3 h-100">
                         <div>
                             <div class="text-center border-bottom">
                                 <img loading="lazy" loading="lazy" decoding="async" class="text-center rounded-6 mb-4"
-                                    src="{{ url('assets/images/logo/adani-solar-logo.png') }}">
+                                    src="{{ url('assets/images/logo/axitec-logo.png') }}">
                             </div>
                             <div class="mt-2 p-2 text-center">
-                                <h4 class="mb-1">Adani Solar</h4>
-                                <h6 class="mb-3"></h6>
+                                <h4 class="mb-1">AXITEC</h4>
+                                <h6 class="mb-3">High - Quality German Solar Brand</h6>
                                 <p>
-                                    Adani Solar is a prominent solar manufacturer known for its high-performance solar panels and commitment to sustainable energy solutions. With Adani Solar as our technology partner, we enhance our solar offerings with reliable and efficient solar panels, contributing to a cleaner and greener energy landscape. 
+                                    AXITEC is a trusted German solar brand known for its high-quality and durable solar modules. As a strategic partner, AXITEC allows us to deliver top-of-the-line solar panels that adhere to strict German engineering standards. With AXITEC, we ensure that your solar PV systems are built to last, providing you with consistent energy production and long-term savings. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+         
+             
+                <div class="col-lg-4 mb-5">
+                    <div class="card info-box3 h-100">
+                        <div>
+                            <div class="text-center border-bottom">
+                                <img loading="lazy" loading="lazy"  decoding="async" class="text-center rounded-6 mb-4"
+                                src="{{ url('assets/images/logo/enphase-logo.png') }}">
+                                <img loading="lazy" loading="lazy" style="width: 70px !important" decoding="async" class="text-center rounded-6 mb-4"
+                                    src="{{ url('assets/images/logo/enphase-logo-1.png') }}">
+                            </div>
+                            <div class="mt-2 p-2 text-center">
+                                <h4 class="mb-1">Enphase Energy</h4>
+                                <h6 class="mb-3">Platinum Installer</h6>
+                                <p>
+                                    Enphase Energy is a pioneer in microinverter technology, providing innovative solutions for solar energy harvesting and monitoring. As a preferred installer, we integrate Enphase microinverters into our solar systems, ensuring greater energy production, module-level monitoring, and increased system reliability. 
                                 </p>
                             </div>
                         </div>
@@ -143,25 +148,6 @@
                                 <h6 class="mb-3">Preferred Partner</h6>
                                 <p>
                                     SolarEdge is a world-leading provider of smart energy solutions, offering advanced solar inverters and power optimizers. As a preferred partner, SolarEdge empowers us to design and implement sophisticated solar systems with enhanced monitoring, safety, and energy optimization features, providing you with more control over your solar energy. 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mb-5">
-                    <div class="card info-box3 h-100">
-                        <div>
-                            <div class="text-center border-bottom">
-                                <img loading="lazy" loading="lazy"  decoding="async" class="text-center rounded-6 mb-4"
-                                src="{{ url('assets/images/logo/enphase-logo-1.png') }}">
-                                <img loading="lazy" loading="lazy" style="width: 70px !important" decoding="async" class="text-center rounded-6 mb-4"
-                                    src="{{ url('assets/images/logo/enphase-logo.png') }}">
-                            </div>
-                            <div class="mt-2 p-2 text-center">
-                                <h4 class="mb-1">Enphase Energy</h4>
-                                <h6 class="mb-3">Platinum Installer</h6>
-                                <p>
-                                    Enphase Energy is a pioneer in microinverter technology, providing innovative solutions for solar energy harvesting and monitoring. As a preferred installer, we integrate Enphase microinverters into our solar systems, ensuring greater energy production, module-level monitoring, and increased system reliability. 
                                 </p>
                             </div>
                         </div>

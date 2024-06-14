@@ -110,7 +110,7 @@
             <div class="col-lg-12">
                 <div class="row">
                     <div class="col-lg-6 position-relative rounded-3"
-                        style="background-image: url(https://www.gadgeon.ae/wp-content/uploads/2023/11/contact-us.jpg);background-position: center center;background-size: cover;">
+                        style="background-image: url({{ asset('assets/images/pictures/contact-us.jpg') }});background-position: center center;background-size: cover;">
                         <div class="px-3" style="bottom: 0;position: absolute;">
                             <h3 class=" text-light fw-bold d-none d-lg-block">Wanna plan a new project with us?
                             </h3>
@@ -183,63 +183,64 @@
                     <p class="h6">Global Presence. Local Focus.</p>
                 </div>
                 <div class="col-lg-12 mx-auto py-4">
-                    <img loading="lazy" src="https://www.gadgeon.ae/wp-content/uploads/2023/10/1-1.png" class="w-75">
+                    
+                    <img loading="lazy" src="{{ asset('assets/images/pictures/1-1.png') }}" class="w-75">
                 </div>
             </div>
         </div>
     </section>
 
     <section
-        style="background-image: url(https://www.gadgeon.ae/wp-content/uploads/2023/10/bg2.jpg);background-position: center center;background-size: cover;">
-        <div class="container">
-            <div class="col-lg-12  d-flex align-items-center " style="height:600px">
-                <div class="row ">
-                    <div class="col-lg-4">
-                        <div class="bg-dark text-light" style="opacity: 0.8;">
-                            <div class="bg-white  text-center col-lg-10 mx-auto " style="top: -25px;position: relative;">
-                                <img loading="lazy"
-                                    src="https://www.gadgeon.ae/wp-content/uploads/2023/09/gadgeon-middle-east.png"
-                                    class="w-50 p-3">
-                            </div>
-                            <div class="px-4 pb-5 text-center">
-                                <h3>Gadgeon Middle East</h3>
-                                <p class="mt-2 " style="line-height: 2;">Innovation partner for digital transformation.
-                                </p>
-                            </div>
+    style="background-image: url({{ asset('assets/images/pictures/bg2.jpg') }});background-position: center center;background-size: cover;">
+    <div class="container">
+        <div class="col-lg-12  d-flex align-items-center " style="height:600px">
+            <div class="row ">
+                <div class="col-lg-4">
+                    <div class="bg-dark text-light" style="opacity: 0.8;">
+                        <div class="bg-white  text-center col-lg-10 mx-auto " style="top: -25px;position: relative;">
+                            <img loading="lazy"
+                                src="{{ asset('assets/images/icons/gadgeon-middle-east.png') }}"
+                                class="w-50 p-3">
+                        </div>
+                        <div class="px-4 pb-5 text-center">
+                            <h3>Gadgeon Middle East</h3>
+                            <p class="mt-2 " style="line-height: 2;">Innovation partner for digital transformation.
+                            </p>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="bg-dark text-light" style="opacity: 0.8;">
-                            <div class="bg-white  text-center col-lg-10 mx-auto " style="top: -25px;position: relative;">
-                                <img loading="lazy"
-                                    src="https://www.gadgeon.ae/wp-content/uploads/2023/10/gadgeon-lifestyle-logo@2x.png"
-                                    class="w-50 p-3">
-                            </div>
-                            <div class="px-4 pb-5  text-center">
-                                <h3> Gadgeon Lifestyle</h3>
-                                <p class="mt-2 " style="line-height: 2;">Personalized smart home control at your.</p>
-                            </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="bg-dark text-light" style="opacity: 0.8;">
+                        <div class="bg-white  text-center col-lg-10 mx-auto " style="top: -25px;position: relative;">
+                            <img loading="lazy"
+                                src="{{ asset('assets/images/icons/gadgeon-lifestyle-logo@2x.png') }}"
+                                class="w-50 p-3">
+                        </div>
+                        <div class="px-4 pb-5  text-center">
+                            <h3> Gadgeon Lifestyle</h3>
+                            <p class="mt-2 " style="line-height: 2;">Personalized smart home control at your.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="bg-dark text-light" style="opacity: 0.8;">
-                            <div class="bg-white  text-center col-lg-10 mx-auto " style="top: -25px;position: relative;">
-                                <img loading="lazy"
-                                    src="https://www.gadgeon.ae/wp-content/uploads/2023/10/gadgeon-smart-systems-logo@2x.png"
-                                    class="w-50 p-3">
-                            </div>
-                            <div class="px-4 pb-5 text-center">
-                                <h3>Gadgeon Smart Systems</h3>
-                                <p class="mt-2 " style="line-height: 2;">Innovation partner for digital transformation.
-                                </p>
-                            </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="bg-dark text-light" style="opacity: 0.8;">
+                        <div class="bg-white  text-center col-lg-10 mx-auto " style="top: -25px;position: relative;">
+                            <img loading="lazy"
+                                src="{{ asset('assets/images/icons/gadgeon-smart-systems-logo@2x.png') }}"
+                                class="w-50 p-3">
+                        </div>
+                        <div class="px-4 pb-5 text-center">
+                            <h3>Gadgeon Smart Systems</h3>
+                            <p class="mt-2 " style="line-height: 2;">Innovation partner for digital transformation.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="shadow-custome"></div>
-    </section>
+    </div>
+    <div class="shadow-custome"></div>
+</section>
 
     @include('locations')
 @endsection

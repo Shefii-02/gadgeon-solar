@@ -1,6 +1,6 @@
 <section class="py-5 bg-dark text-light">
-    <div class="col-lg-12" style="
-        background-image: url(https://www.gadgeon.ae/wp-content/uploads/2023/09/world-map-bg.svg);
+    <div class="col-lg-12" style=" 
+        background-image: url(<?php echo e(url('assets/images/pictures/world-map-bg.svg')); ?>);
         background-position: center center;
         background-repeat: no-repeat;background-size: 1000px auto;
         ">
@@ -72,7 +72,7 @@
                                     <div class="mb-4">
                                         <div class="-container">
                                             <h4 class="text-sm-center text-lg-start text-center">
-                                                Gadgeon Smart Systems Pvt. Ltd.
+                                                Gadgeon Lifestyle Private Limited
                                             </h4>
                                         </div>
                                     </div>

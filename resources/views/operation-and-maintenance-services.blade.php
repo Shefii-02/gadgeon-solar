@@ -68,11 +68,12 @@
                         </h1>
                     </div>
                  </div>
+                 
                 <div class="col-lg-12 ">
                     <div class="row " style="overflow-x:hidden">
                         <div class="col-lg-4 mb-3">
                             <div class="d-flex justify-content-center flex-column align-items-center">
-                                <img loading="lazy" src="https://www.gadgeon.ae/wp-content/uploads/2023/10/artifical-intelligence1.png"
+                                <img loading="lazy" src="{{ asset('assets/images/icons/artifical-intelligence1.png') }}"
                                     class="w-50">
                                 <span class="my-4 text-center h5" >Proactive Approach</span>
                                 <p class="text-center mt-2 text-dark px-2">
@@ -85,7 +86,7 @@
                         </div>
                         <div class="col-lg-4  mb-3">
                             <div class="d-flex justify-content-center flex-column align-items-center mt-5">
-                                <img loading="lazy" src="https://www.gadgeon.ae/wp-content/uploads/2023/10/development.png" class="w-50">
+                                <img loading="lazy" src="{{ asset('assets/images/icons/development.png') }}" class="w-50">
                                 <span class="my-4 text-center h5" >Experienced Professionals</span>
                                 <p class="text-center mt-2 text-dark px-2">
                                     Our dedicated team of solar technicians and engineers are highly skilled
@@ -97,7 +98,7 @@
                         </div>
                         <div class="col-lg-4  mb-3">
                             <div class="d-flex justify-content-center flex-column align-items-center ">
-                                <img loading="lazy" src="https://www.gadgeon.ae/wp-content/uploads/2023/10/development.png" class="w-50">
+                                <img loading="lazy" src="{{ asset('assets/images/icons/development.png') }}" class="w-50">
                                 <span class="my-4 text-center h5" >Regular Performance Monitoring</span>
                                 <p class="text-center mt-2 text-dark px-2">
                                     We utilize advanced monitoring systems to track the performance
@@ -110,7 +111,7 @@
 
                         <div class="col-lg-4  mb-3">
                             <div class="d-flex justify-content-center flex-column align-items-center mt-5">
-                                <img loading="lazy" src="https://www.gadgeon.ae/wp-content/uploads/2023/10/data-analytics.png"
+                                <img loading="lazy" src="{{ asset('assets/images/icons/data-analytics.png') }}"
                                     class="w-50">
                                 <span class="my-4 text-center h5" >Timely Support and Troubleshooting:</span>
                                 <p class="text-center mt-2 text-dark px-2">
@@ -123,7 +124,7 @@
                         </div>
                         <div class="col-lg-4  mb-3">
                             <div class="d-flex justify-content-center flex-column align-items-center">
-                                <img loading="lazy" src="https://www.gadgeon.ae/wp-content/uploads/2023/10/deployment.png" class="w-50">
+                                <img loading="lazy" src="{{ asset('assets/images/icons/deployment.png') }}" class="w-50">
                                 <span class="my-4 h5 text-center">Comprehensive Maintenance Services</span>
                                 <p class="text-center mt-2 text-dark px-2">
                                     Our O&M services encompass all aspects of solar system
@@ -134,7 +135,7 @@
                         </div>
                         <div class="col-lg-4  mb-3">
                             <div class="d-flex justify-content-center flex-column align-items-center mt-5">
-                                <img loading="lazy" src="https://www.gadgeon.ae/wp-content/uploads/2023/10/data-analytics.png"
+                                <img loading="lazy" src="{{ asset('assets/images/icons/data-analytics.png') }}"
                                     class="w-50">
                                 <span class="my-4 text-center h5" >Extended Equipment Life</span>
                                 <p class="text-center mt-2 text-dark px-2">

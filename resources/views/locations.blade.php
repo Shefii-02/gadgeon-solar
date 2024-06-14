@@ -1,6 +1,6 @@
 <section class="py-5 bg-dark text-light">
-    <div class="col-lg-12" style="
-        background-image: url(https://www.gadgeon.ae/wp-content/uploads/2023/09/world-map-bg.svg);
+    <div class="col-lg-12" style=" 
+        background-image: url({{ url('assets/images/pictures/world-map-bg.svg') }});
         background-position: center center;
         background-repeat: no-repeat;background-size: 1000px auto;
         ">

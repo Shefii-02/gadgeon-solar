@@ -13,9 +13,9 @@
     <meta property="og:url" content="<?php echo e(url('/')); ?>" />
     <meta property="og:image" content="<?php echo e(asset('assets/images/logo.jpg')); ?>" />
     <link rel="icon" href="<?php echo e(asset('assets/images/h.ico')); ?>" type="image/x-icon">
-    <link rel="icon" href="https://www.gadgeon.ae/wp-content/uploads/2023/09/cropped-fav-32x32.png" sizes="32x32" />
-    <link rel="icon" href="https://www.gadgeon.ae/wp-content/uploads/2023/09/cropped-fav-192x192.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="https://www.gadgeon.ae/wp-content/uploads/2023/09/cropped-fav-180x180.png" />
+    <link rel="icon" href="<?php echo e(asset('assets/images/logo/cropped-fav-32x32.png')); ?>" sizes="32x32" />
+    <link rel="icon" href="<?php echo e(asset('assets/images/logo/cropped-fav-192x192.png" sizes="192x192')); ?>" />
+    <link rel="apple-touch-icon" href="<?php echo e(asset('assets/images/logo/cropped-fav-180x180.png')); ?>" />
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
