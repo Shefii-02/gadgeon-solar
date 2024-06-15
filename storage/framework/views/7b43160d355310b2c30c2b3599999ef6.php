@@ -190,56 +190,56 @@
     </section>
 
     <section
-        style="background-image: url(https://www.gadgeon.ae/wp-content/uploads/2023/10/bg2.jpg);background-position: center center;background-size: cover;">
-        <div class="container">
-            <div class="col-lg-12  d-flex align-items-center " style="height:600px">
-                <div class="row ">
-                    <div class="col-lg-4">
-                        <div class="bg-dark text-light" style="opacity: 0.8;">
-                            <div class="bg-white  text-center col-lg-10 mx-auto " style="top: -25px;position: relative;">
-                                <img loading="lazy"
-                                    src="https://www.gadgeon.ae/wp-content/uploads/2023/09/gadgeon-middle-east.png"
-                                    class="w-50 p-3">
-                            </div>
-                            <div class="px-4 pb-5 text-center">
-                                <h3>Gadgeon Middle East</h3>
-                                <p class="mt-2 " style="line-height: 2;">Innovation partner for digital transformation.
-                                </p>
-                            </div>
+    style="background-image: url(<?php echo e(asset('assets/images/pictures/bg2.jpg')); ?>);background-position: center center;background-size: cover;">
+    <div class="container">
+        <div class="col-lg-12  d-flex align-items-center " style="height:600px">
+            <div class="row ">
+                <div class="col-lg-4">
+                    <div class="bg-dark text-light" style="opacity: 0.8;">
+                        <div class="bg-white  text-center col-lg-10 mx-auto " style="top: -25px;position: relative;">
+                            <img loading="lazy"
+                                src="<?php echo e(asset('assets/images/icons/gadgeon-middle-east.png')); ?>"
+                                class="w-50 p-3">
+                        </div>
+                        <div class="px-4 pb-5 text-center">
+                            <h3>Gadgeon Middle East</h3>
+                            <p class="mt-2 " style="line-height: 2;">Innovation partner for digital transformation.
+                            </p>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="bg-dark text-light" style="opacity: 0.8;">
-                            <div class="bg-white  text-center col-lg-10 mx-auto " style="top: -25px;position: relative;">
-                                <img loading="lazy"
-                                    src="https://www.gadgeon.ae/wp-content/uploads/2023/10/gadgeon-lifestyle-logo@2x.png"
-                                    class="w-50 p-3">
-                            </div>
-                            <div class="px-4 pb-5  text-center">
-                                <h3> Gadgeon Lifestyle</h3>
-                                <p class="mt-2 " style="line-height: 2;">Personalized smart home control at your.</p>
-                            </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="bg-dark text-light" style="opacity: 0.8;">
+                        <div class="bg-white  text-center col-lg-10 mx-auto " style="top: -25px;position: relative;">
+                            <img loading="lazy"
+                                src="<?php echo e(asset('assets/images/icons/gadgeon-lifestyle-logo@2x.png')); ?>"
+                                class="w-50 p-3">
+                        </div>
+                        <div class="px-4 pb-5  text-center">
+                            <h3> Gadgeon Lifestyle</h3>
+                            <p class="mt-2 " style="line-height: 2;">Personalized smart home control at your.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="bg-dark text-light" style="opacity: 0.8;">
-                            <div class="bg-white  text-center col-lg-10 mx-auto " style="top: -25px;position: relative;">
-                                <img loading="lazy"
-                                    src="https://www.gadgeon.ae/wp-content/uploads/2023/10/gadgeon-smart-systems-logo@2x.png"
-                                    class="w-50 p-3">
-                            </div>
-                            <div class="px-4 pb-5 text-center">
-                                <h3>Gadgeon Smart Systems</h3>
-                                <p class="mt-2 " style="line-height: 2;">Innovation partner for digital transformation.
-                                </p>
-                            </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="bg-dark text-light" style="opacity: 0.8;">
+                        <div class="bg-white  text-center col-lg-10 mx-auto " style="top: -25px;position: relative;">
+                            <img loading="lazy"
+                                src="<?php echo e(asset('assets/images/icons/gadgeon-smart-systems-logo@2x.png')); ?>"
+                                class="w-50 p-3">
+                        </div>
+                        <div class="px-4 pb-5 text-center">
+                            <h3>Gadgeon Smart Systems</h3>
+                            <p class="mt-2 " style="line-height: 2;">Innovation partner for digital transformation.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="shadow-custome"></div>
-    </section>
+    </div>
+    <div class="shadow-custome"></div>
+</section>
 
     <?php echo $__env->make('locations', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 <?php $__env->stopSection(); ?>

@@ -337,7 +337,7 @@
                 <div class="row">
                     <div class="col">
                         <div class="footer-copyright-wrapper text-center text-dark py-2">
-                            <small> Copyright © 2024 Gadgeon - Smart Solar Solutions. All rights reserved.</small>
+                            <small> Copyright © 2024 Gadgeon - Smart Solar Solutions. All rights reserved. <a class="" href="www.paarva.com" target="_new">Powered by Paarva</a></small>
                         </div>
                     </div>
                 </div>
