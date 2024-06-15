@@ -369,30 +369,8 @@
 
                     <div class="pdct-slider">
                         <div class="pdct-slider__wrp1 swiper-wrapper1  mt-4">
-
                             <div class="pdct-slider__item swiper-slide">
                                 <div class="pdct-slider__img right-position order-0 order-lg-2">
-                                    <img loading="lazy" src="{{ asset('assets/images/products/product2.jpg') }}"
-                                        alt="">
-                                </div>
-                                <div class="pdct-slider__content">
-                                    <div class="pdct-slider__title">AXITEC - High-Quality German Solar Brand</div>
-                                    <div class="pdct-slider__text">AXITEC, a trusted German brand, delivers high-quality
-                                        solar modules. Partnering with us ensures top-of-the-line panels, built to last with
-                                        German engineering standards for consistent energy production and long-term savings.
-                                    </div>
-                                    <a href="https://www.axitecsolar.com/en" target="_new"
-                                        class="pdct-slider__button">READ MORE</a>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="pdct-slider">
-                        <div class="pdct-slider__wrp1 swiper-wrapper1  mt-4">
-                            <div class="pdct-slider__item swiper-slide">
-                                <div class="pdct-slider__img">
                                     <img loading="lazy" src="{{ asset('assets/images/products/product3.jpg') }}"
                                         alt="">
                                 </div>
@@ -413,34 +391,32 @@
 
                     <div class="pdct-slider">
                         <div class="pdct-slider__wrp1 swiper-wrapper1  mt-4">
-                            <div class="pdct-slider__item swiper-slide">
 
-                                <div class="pdct-slider__img right-position order-0 order-lg-2">
-                                    <img loading="lazy" src="{{ asset('assets/images/products/product-4.jpg') }}"
+                            <div class="pdct-slider__item swiper-slide">
+                                <div class="pdct-slider__img ">
+                                    <img loading="lazy" src="{{ asset('assets/images/products/product2.jpg') }}"
                                         alt="">
                                 </div>
                                 <div class="pdct-slider__content">
-                                    <div class="pdct-slider__title">Solar Edge Preferred Partner</div>
-                                    <div class="pdct-slider__text">
-                                         We leverage SolarEdge's advanced inverters and power
-                                        optimizers to design sophisticated solar systems with enhanced monitoring, safety,
-                                        and energy optimization, giving you greater control over your solar energy.
+                                    <div class="pdct-slider__title">AXITEC - High-Quality German Solar Brand</div>
+                                    <div class="pdct-slider__text">AXITEC, a trusted German brand, delivers high-quality
+                                        solar modules. Partnering with us ensures top-of-the-line panels, built to last with
+                                        German engineering standards for consistent energy production and long-term savings.
                                     </div>
-                                    <a href="https://www.solaredge.in" target="_new" class="pdct-slider__button">READ
-                                        MORE</a>
-
+                                    <a href="https://www.axitecsolar.com/en" target="_new"
+                                        class="pdct-slider__button">READ MORE</a>
                                 </div>
 
                             </div>
-
                         </div>
                     </div>
 
+                   
                     <div class="pdct-slider">
                         <div class="pdct-slider__wrp1 swiper-wrapper1  mt-4">
                             <div class="pdct-slider__item swiper-slide">
 
-                                <div class="pdct-slider__img ">
+                                <div class="pdct-slider__img right-position order-0 order-lg-2">
                                     <img loading="lazy" src="{{ asset('assets/images/products/product4.jpeg?v=1') }}"
                                         alt="">
                                 </div>
@@ -458,6 +434,32 @@
 
 
                             </div>
+                        </div>
+                    </div>
+
+
+                    <div class="pdct-slider">
+                        <div class="pdct-slider__wrp1 swiper-wrapper1  mt-4">
+                            <div class="pdct-slider__item swiper-slide">
+
+                                <div class="pdct-slider__img ">
+                                    <img loading="lazy" src="{{ asset('assets/images/products/product-4.jpg') }}"
+                                        alt="">
+                                </div>
+                                <div class="pdct-slider__content">
+                                    <div class="pdct-slider__title">Solar Edge Preferred Partner</div>
+                                    <div class="pdct-slider__text">
+                                         We leverage SolarEdge's advanced inverters and power
+                                        optimizers to design sophisticated solar systems with enhanced monitoring, safety,
+                                        and energy optimization, giving you greater control over your solar energy.
+                                    </div>
+                                    <a href="https://www.solaredge.in" target="_new" class="pdct-slider__button">READ
+                                        MORE</a>
+
+                                </div>
+
+                            </div>
+
                         </div>
                     </div>
                 </div>
