@@ -369,7 +369,7 @@
             <div class="col-lg-12">
                 <div class="row">
                     <div class="col-lg-6 d-flex align-items-center " style="height:620px;">
-                        <div class="p-5">
+                        <div class="">
                             <div class="bg-dark text-light">
                                 <div class="p-5">
                                     
