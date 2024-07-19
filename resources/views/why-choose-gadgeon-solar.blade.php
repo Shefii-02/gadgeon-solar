@@ -230,7 +230,7 @@
                                     <p class="mt-2 " style="line-height: 2;">
                                         Join the GadgEon Solar family today and be part of the solar-powered movement that lights up a greener, cleaner, and more sustainable world. Together, let's harness the sun's energy to power a brighter tomorrow!
                                     </p>
-                                    <a href="https://wa.me/91" class="btn btn-theme2 rounded-5">Let's Talk</a>
+                                    <a target="_blank" href="https://wa.me/+919633186217?text=i%20need%20more%20details%20your%20product%20and%20services" class="btn btn-theme2 rounded-5">Let's Talk</a>
                                 </div>
                             </div>
                         </div>

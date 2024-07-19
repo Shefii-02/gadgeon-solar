@@ -6,7 +6,7 @@
                         Contact us today to discuss your specific needs and schedule a consultation.
                     </h1>
                     <div class="mt-5">
-                        <a href="{{ url('contact-us') }}" class="btn btn-theme2">Call Us Now</a>
+                        <a href="tel://+919633186217" class="btn btn-theme2">Call Us Now</a>
                     </div>
                     <div class="col-lg-4 mx-auto">
                         <div class="mt-4 d-flex justify-content-around gap-2">
