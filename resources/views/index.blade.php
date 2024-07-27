@@ -360,8 +360,8 @@
                                     <div class="pdct-slider__text">SunPower, from Maxeon Solar Technologies, pioneers
                                         high-efficiency panels. Our partnership ensures top-tier technology, maximizing
                                         energy generation for a sustainable future.</div>
-                                    <a href="https://us.sunpower.com/" target="_new" class="pdct-slider__button">READ
-                                        MORE</a>
+                                    {{-- <a href="https://us.sunpower.com/" target="_new" class="pdct-slider__button">READ
+                                        MORE</a> --}}
                                 </div>
                             </div>
                         </div>
@@ -381,8 +381,8 @@
                                         Through our partnership, we provide cutting-edge solar panels renowned for quality
                                         and performance.
                                     </div>
-                                    <a href="https://www.recgroup.com/en" target="_new" class="pdct-slider__button">READ
-                                        MORE</a>
+                                    {{-- <a href="https://www.recgroup.com/en" target="_new" class="pdct-slider__button">READ
+                                        MORE</a> --}}
 
                                 </div>
                             </div>
@@ -403,8 +403,8 @@
                                         solar modules. Partnering with us ensures top-of-the-line panels, built to last with
                                         German engineering standards for consistent energy production and long-term savings.
                                     </div>
-                                    <a href="https://www.axitecsolar.com/en" target="_new"
-                                        class="pdct-slider__button">READ MORE</a>
+                                    {{-- <a href="https://www.axitecsolar.com/en" target="_new"
+                                        class="pdct-slider__button">READ MORE</a> --}}
                                 </div>
 
                             </div>
@@ -427,8 +427,8 @@
                                         monitoring. As a preferred installer, we integrate Enphase microinverters, ensuring
                                         superior energy production, monitoring, and system reliability.
                                     </div>
-                                    <a href="https://enphase.com/en-in" target="_new" class="pdct-slider__button">READ
-                                        MORE</a>
+                                    {{-- <a href="https://enphase.com/en-in" target="_new" class="pdct-slider__button">READ
+                                        MORE</a> --}}
 
                                 </div>
 
@@ -453,8 +453,8 @@
                                         optimizers to design sophisticated solar systems with enhanced monitoring, safety,
                                         and energy optimization, giving you greater control over your solar energy.
                                     </div>
-                                    <a href="https://www.solaredge.in" target="_new" class="pdct-slider__button">READ
-                                        MORE</a>
+                                    {{-- <a href="https://www.solaredge.in" target="_new" class="pdct-slider__button">READ
+                                        MORE</a> --}}
 
                                 </div>
 
