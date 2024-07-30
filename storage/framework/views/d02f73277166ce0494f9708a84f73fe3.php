@@ -14,7 +14,7 @@ style="background-image: url(<?php echo e(isset($image) && $image != null ? url(
                         <p class="mt-2 " style="line-height: 2;">
                             We at Gadgeon help you with the most appropriate technology solutions for home, commercial spaces and industries
                         </p>
-                        <a href="https://wa.me/91" class="btn btn-theme2 rounded-5">Let's Talk</a>
+                        <a target="_blank" href="tel://+919747093888" class="btn btn-theme2 rounded-5"><i class="bi bi-phone"></i> Let's Talk</a>
                     </div>
                 </div>
             </div>

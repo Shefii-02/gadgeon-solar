@@ -170,10 +170,9 @@
         <div class="container">
             <div class="col-lg-12">
                 <div class="col-lg-10 mx-auto text-center py-5">
-                    <h1 class="fw-normal" data-aos="fade-up" data-aos-delay="500">
-                        At Gadgeon, we specialize in providing top-tier solar energy solutions, including on-grid solar systems that seamlessly integrate with your existing power grid. Our range of solar systems caters to various energy needs, offering options from 3kW, 5kW, 10kW, and higher capacity systems to ensure you get the optimal energy output for your home or business.
-                    </h1>
-                    <a target="_blank" href="tel://+919747093888" class="btn btn-theme2 rounded-5">Call Us</a>
+                    <h1 class="fw-normal fs-3" data-aos="fade-up" data-aos-delay="500">
+                        At Gadgeon, we specialize in providing top-tier solar solutions, including on-grid solar systems that seamlessly integrate with your existing power grid. Our range of solar systems caters to various energy needs, offering options from 3kW, 5kW, and 10kW to 20kW and higher capacity solar systems like 500kW, ensuring you get the optimal energy output for your home or business                    </h1>
+                    <a target="_blank" href="tel://+919747093888" class="btn btn-theme2 rounded-5 mt-3"> <i class="bi bi-phone"></i>  Call Us</a>
                 </div>
             </div>
         </div>

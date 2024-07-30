@@ -368,14 +368,14 @@
             <div class="col-lg-12">
                 <div class="row">
                     <div class="col-lg-6 d-flex align-items-center " style="height:620px;">
-                        <div class="p-5">
+                        <div class="">
                             <div class="bg-dark text-light">
                                 <div class="p-5">
                                     
                                     <p class="mt-2 " style="line-height: 2;">
                                         Embrace the power of the sun with GadgEon Solar's comprehensive range of solar services. Contact us today to start your journey towards a cleaner, greener, and sustainable future!
                                     </p>
-                                    <a href="https://wa.me/91" class="btn btn-theme2 rounded-5">Let's Talk</a>
+                                    <a target="_blank" href="tel://+919747093888" class="btn btn-theme2 rounded-5">Let's Talk</a>
                                 </div>
                             </div>
                         </div>

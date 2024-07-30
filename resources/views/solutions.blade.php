@@ -376,7 +376,7 @@
                                     <p class="mt-2 " style="line-height: 2;">
                                         Embrace the power of the sun with GadgEon Solar's comprehensive range of solar services. Contact us today to start your journey towards a cleaner, greener, and sustainable future!
                                     </p>
-                                    <a target="_blank" href="https://wa.me/+919633186217?text=i%20need%20more%20details%20your%20product%20and%20services" class="btn btn-theme2 rounded-5">Let's Talk</a>
+                                    <a target="_blank" href="tel://+919747093888" class="btn btn-theme2 rounded-5">Let's Talk</a>
                                 </div>
                             </div>
                         </div>

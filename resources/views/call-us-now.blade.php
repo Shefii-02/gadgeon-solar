@@ -6,25 +6,20 @@
                         Contact us today to discuss your specific needs and schedule a consultation.
                     </h1>
                     <div class="mt-5">
-                        <a href="tel://+919633186217" class="btn btn-theme2">Call Us Now</a>
+                        <a href="tel://+919747093888" class="btn btn-theme2">Call Us Now</a>
                     </div>
                     <div class="col-lg-4 mx-auto">
                         <div class="mt-4 d-flex justify-content-around gap-2">
                             <div class=" d-flex align-items-center justify-content-center bg-white">
-                                <a href=""><i class="bi bi-facebook fs-4"></i></a>
+                                <a href="https://www.facebook.com/gadgeonlifestyle" target="_new"><i class="bi bi-facebook fs-4"></i></a>
                             </div>
                             <div class=" d-flex align-items-center justify-content-center bg-white">
-                                <a href=""><i class="bi bi-youtube fs-4"></i></a>
+                                <a href="https://www.youtube.com/@gadgeonlifestyle7231" target="_new"><i class="bi bi-youtube fs-4"></i></a>
                             </div>
                             <div class=" d-flex align-items-center justify-content-center bg-white">
-                                <a href=""><i class="bi bi-instagram fs-4"></i></a>
+                                <a href="https://www.instagram.com/gadgeonlifestyle/" target="_new"><i class="bi bi-instagram fs-4"></i></a>
                             </div>
-                            <div class=" d-flex align-items-center justify-content-center bg-white">
-                                <a href=""><i class="bi bi-twitter fs-4"></i></a>
-                            </div>
-                            <div class=" d-flex align-items-center justify-content-center bg-white">
-                                <a href=""><i class="bi bi-linkedin fs-4"></i></a>
-                            </div>
+                            
                         </div>
                     </div>
 
