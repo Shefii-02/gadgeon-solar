@@ -142,7 +142,7 @@
         }
 
         .mobile-btn-enquiry{
-            font-size: 12px;
+            font-size: 10px;
             padding: 15px 15px 13px 15px;
         }
     </style>
