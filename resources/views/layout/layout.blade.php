@@ -201,8 +201,8 @@
                     <div class=" col-md-6 col-6  d-block d-lg-none ">
                         <div class="row">
                             <div class="col-9 d-flex align-items-center ">
-                                <a href="{{ url('contact-us') }}" class="btn btn-theme rounded-5 btn-sm"
-                                    style="padding:6px 20px !important">Contact</a>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                                    class="btn btn-theme rounded-5">Enquire Now</a>
                             </div>
                             <div class="col-3  d-flex align-items-center">
                                 <i class="bi bi-filter-right display-3 mb-2 end-0 " type="button"
