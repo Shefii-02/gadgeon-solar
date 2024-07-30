@@ -32,7 +32,7 @@
                             </h3>
                         </div>
                     </div>
-                    <?php echo $__env->make('social-media-links', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+                   
                 </div>
             </div>
         </div>
@@ -171,9 +171,9 @@
             <div class="col-lg-12">
                 <div class="col-lg-10 mx-auto text-center py-5">
                     <h1 class="fw-normal" data-aos="fade-up" data-aos-delay="500">
-                        GadgEon Solar Solutions is your gateway to a brighter and more sustainable future. Take the first
-                        step towards energy independence and eco-conscious living by embracing solar power today.
+                        At Gadgeon, we specialize in providing top-tier solar energy solutions, including on-grid solar systems that seamlessly integrate with your existing power grid. Our range of solar systems caters to various energy needs, offering options from 3kW, 5kW, 10kW, and higher capacity systems to ensure you get the optimal energy output for your home or business.
                     </h1>
+                    <a target="_blank" href="tel://+919747093888" class="btn btn-theme2 rounded-5">Call Us</a>
                 </div>
             </div>
         </div>
@@ -359,8 +359,7 @@
                                     <div class="pdct-slider__text">SunPower, from Maxeon Solar Technologies, pioneers
                                         high-efficiency panels. Our partnership ensures top-tier technology, maximizing
                                         energy generation for a sustainable future.</div>
-                                    <a href="https://us.sunpower.com/" target="_new" class="pdct-slider__button">READ
-                                        MORE</a>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -380,8 +379,7 @@
                                         Through our partnership, we provide cutting-edge solar panels renowned for quality
                                         and performance.
                                     </div>
-                                    <a href="https://www.recgroup.com/en" target="_new" class="pdct-slider__button">READ
-                                        MORE</a>
+                                    
 
                                 </div>
                             </div>
@@ -402,8 +400,7 @@
                                         solar modules. Partnering with us ensures top-of-the-line panels, built to last with
                                         German engineering standards for consistent energy production and long-term savings.
                                     </div>
-                                    <a href="https://www.axitecsolar.com/en" target="_new"
-                                        class="pdct-slider__button">READ MORE</a>
+                                    
                                 </div>
 
                             </div>
@@ -426,8 +423,7 @@
                                         monitoring. As a preferred installer, we integrate Enphase microinverters, ensuring
                                         superior energy production, monitoring, and system reliability.
                                     </div>
-                                    <a href="https://enphase.com/en-in" target="_new" class="pdct-slider__button">READ
-                                        MORE</a>
+                                    
 
                                 </div>
 
@@ -452,8 +448,7 @@
                                         optimizers to design sophisticated solar systems with enhanced monitoring, safety,
                                         and energy optimization, giving you greater control over your solar energy.
                                     </div>
-                                    <a href="https://www.solaredge.in" target="_new" class="pdct-slider__button">READ
-                                        MORE</a>
+                                    
 
                                 </div>
 

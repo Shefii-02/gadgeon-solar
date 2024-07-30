@@ -132,18 +132,41 @@
                 transform: rotate(360deg);
             }
         }
+
+        .modal{
+            z-index: 99999;
+        }
+
+        .btn-close.text-light{
+            color: #f3f3f3 !important;
+        }
     </style>
 
-    <!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-NCQCZS78');</script>
-<!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NCQCZS78');
+    </script>
+    <!-- End Google Tag Manager -->
 
 </head>
 
 <body>
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCQCZS78" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCQCZS78" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager (noscript) -->
     <!-- header section -->
     <header class="header">
 
@@ -166,7 +189,8 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.cr
                                     E-BROCHURE</a>
                             </li>
                             <li class="menu-item ">
-                                <a href="{{ url('contact-us') }}" class="btn btn-theme rounded-5">Contact</a>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                                    class="btn btn-theme rounded-5">Enquire Now</a>
                             </li>
                             <li class="menu-item ">
                                 <i class="bi bi-text-right fs-1" type="button" data-bs-toggle="offcanvas"
@@ -191,11 +215,11 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.cr
                         aria-labelledby="offcanvasRightLabel">
                         <div class="offcanvas-header">
                             <a href="/" title="gadgeon" class="">
-                                <img loading="lazy" src="{{ asset('assets/images/gadgeon-logo.svg') }}" alt="logo"
-                                    class="logo">
+                                <img loading="lazy" src="{{ asset('assets/images/gadgeon-logo.svg') }}"
+                                    alt="logo" class="logo">
                             </a>
-                            <button type="button" class="btn-close text-reset float-right" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
+                            <button type="button" class="btn-close text-reset float-right"
+                                data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
 
                         <div class="offcanvas-body mt-2">
@@ -385,8 +409,9 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.cr
                 <div class="row">
                     <div class="col">
                         <div class="footer-copyright-wrapper text-center text-dark py-2">
-                            <small> Copyright © 2024 Gadgeon - Smart Solar Solutions. All rights reserved. <a
-                                    class="" href="www.paarva.com" target="_new">Powered by Paarva</a></small>
+                            <small> Copyright © {{ date('Y') }} Gadgeon - Smart Solar Solutions. All rights
+                                reserved. <a class="" href="https://www.paarva.com" target="_new">Powered by
+                                    Paarva</a></small>
                         </div>
                     </div>
                 </div>
@@ -402,7 +427,7 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.cr
             <div class="scroll">
                 <form method="POST" action="{{ route('quote-email') }}">
                     @csrf
-                    <div class="mb-3">
+                    <div class="mb-3 ">
                         <input type="text" required="" name="fullname" class="form-control rounded-5"
                             placeholder="Name">
                     </div>
@@ -451,7 +476,7 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.cr
                 <div class="wa__popup_content_item ">
 
                     <a target="_blank"
-                        href="https://wa.me/+919633186217?text=i%20need%20more%20details%20your%20product%20and%20services"
+                        href="https://wa.me/+919747093888?text=i%20need%20more%20details%20your%20product%20and%20services"
                         class="wa__stt wa__stt_online">
                         <div class="wa__popup_avatar">
                             <div class="wa__cs_img_wrap"
@@ -480,6 +505,54 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.cr
     <!-- Overlay and Loader -->
     <div id="overlay">
         <div class="loader"></div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop"tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content  bg-theme">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Enquire Now</h5>
+                    <span type="button" class=" text-light" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></span>
+                </div>
+                <div class="modal-body  bg-theme">
+                    <form action="{{ route('contact-email') }}" method="POST" class="py-2 px-3 row">
+                        @csrf
+                        <div class="col-lg-12 mb-2">
+                            <label class="mb-2 text-light h6">Full Name</label>
+                            <input type="text" required class="form-control" name="fullname"
+                                value="{{ old('fullname') }}" >
+                        </div>
+                        <div class="col-lg-6 mb-2">
+                            <label class="mb-2 text-light h6">Email Address</label>
+                            <input type="email" autocomplete="off" required class="form-control" name="email"
+                                value="{{ old('email') }}">
+                        </div>
+                        <div class="col-lg-6 mb-2">
+                            <label class="mb-2 text-light h6">Mobile Number</label>
+                            <input id="phone" required maxlength="10" minlength="10"
+                                value="{{ old('mobile') }}" class="form-control" type="text"
+                                onkeypress="if(event.which < 48 || event.which > 57 ) if(event.which != 8) return false;"
+                                autocomplete="off" name="mobile" >
+
+                        </div>
+                        <div class="col-lg-12 mb-2">
+                            <label class="mb-2 text-light h6">Subject</label>
+                            <input type="text" required class="form-control" value="{{ old('subject') }}"
+                                name="subject" >
+                        </div>
+                        <div class="col-lg-12 mb-2">
+                            <label class="mb-2 text-light h6">Message</label>
+                            <textarea type="text" name="message" class="form-control" rows="8">{{ old('message') }}</textarea>
+                        </div>
+                        <div class="col-lg-12 mb-4 text-center">
+                            <input type="submit" class="btn btn-theme2 text-light border-light border rounded-5">
+                        </div>
+                    </form>
+                </div>
+               
+            </div>
+        </div>
     </div>
 
 

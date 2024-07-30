@@ -87,8 +87,8 @@
                                 <i class="bi bi-chat-square-text fs-1"></i>
                                 <span class="my-3 h5">Business Talk</span>
                                 <span class="text-muted text-center" style="line-height: 1.8;">
-                                    <h6><a href="tel:+919633186217" class="text-dark mt-2">+91 9633 186 217</a></h6>
-                                    <h6><a href="tel:+919747093888" class="text-dark mt-2">+91 9747 093 888</a>, <a
+                                    <h6><a href="tel:+919747093888" class="text-dark mt-2">+91 9747 093 888</a></h6>
+                                    <h6><a href="tel:+919633186217" class="text-dark mt-2">+91 9633 186 217</a>, <a
                                             href="tel:+919207799555" class="text-dark mt-2">+91 9207 799 555</a></h6>
 
                                     <h6><a href="mailto:solar@gadgeon.com" class="text-dark">solar@gadgeon.com</a> </h6>

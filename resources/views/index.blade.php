@@ -33,7 +33,7 @@
                             </h3>
                         </div>
                     </div>
-                    @include('social-media-links')
+                 {{--  @include('social-media-links') --}}  
                 </div>
             </div>
         </div>
@@ -172,9 +172,9 @@
             <div class="col-lg-12">
                 <div class="col-lg-10 mx-auto text-center py-5">
                     <h1 class="fw-normal" data-aos="fade-up" data-aos-delay="500">
-                        GadgEon Solar Solutions is your gateway to a brighter and more sustainable future. Take the first
-                        step towards energy independence and eco-conscious living by embracing solar power today.
+                        At Gadgeon, we specialize in providing top-tier solar energy solutions, including on-grid solar systems that seamlessly integrate with your existing power grid. Our range of solar systems caters to various energy needs, offering options from 3kW, 5kW, 10kW, and higher capacity systems to ensure you get the optimal energy output for your home or business.
                     </h1>
+                    <a target="_blank" href="tel://+919747093888" class="btn btn-theme2 rounded-5">Call Us</a>
                 </div>
             </div>
         </div>
