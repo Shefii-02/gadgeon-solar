@@ -142,8 +142,9 @@
         }
 
         .mobile-btn-enquiry{
-            font-size: 10px;
-            padding: 15px 15px 13px 15px;
+            font-size: 12px;
+            padding: 5px 10px 5px 10px;
+            text-transform: uppercase;
         }
     </style>
 
@@ -178,7 +179,7 @@
         <div class="container">
             <div class="col-lg-12 main-header">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-6  d-flex align-items-center">
+                    <div class="col-lg-3 col-md-6 col-5  d-flex align-items-center">
                         <a href="/" title="gadgeon" class="">
                             <img loading="lazy" src="{{ asset('assets/images/gadgeon-logo.svg') }}" alt="logo"
                                 class="logo">
@@ -203,7 +204,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class=" col-md-6 col-6  d-block d-lg-none ">
+                    <div class=" col-md-6 col-7  d-block d-lg-none ">
                         <div class="row">
                             <div class="col-9 d-flex align-items-center justify-content-end">
                                 <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
